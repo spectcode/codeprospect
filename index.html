@@ -11,13 +11,16 @@
     </head>
     <body>
 
-      <div class="title">
-        <h1 id="mainh">CODEPROSPECT</h1>
-      </div>
-      <div class="uk-container uk-container-large">
-      <!-- navbar for small devices devices with width < 800px  -->
+        <!-- title banner of the page -->
 
-      <div id="navadar" uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
+        <div class="title">
+          <h1 id="mainh">CODEPROSPECT</h1>
+        </div>
+
+        <div class="uk-container uk-container-large">
+        <!-- navbar for small devices devices with width < 800px  -->
+
+        <div id="navadar" uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
         <nav  id="navsmall" class="uk-navbar-container" uk-navbar>
             <div class="uk-navbar-left">
                 <a id="leftnav" class="uk-navbar-toggle" uk-navbar-toggle-icon href="#offcanvas-nav-primary" href="#offcanvas-nav-primary" uk-toggle></a>
@@ -36,38 +39,43 @@
                 </div>
             </div>
 
-            <div class="uk-navbar-right" id="searchnav">
-                <form class="uk-search uk-search-default">
-                    <span class="uk-search-icon-flip" uk-search-icon></span>
-                    <input class="uk-search-input" type="search" placeholder="Search...">
-                </form>
-            </div>
-
-        </nav>
-      </div>
-
-      <!-- navbar for devices with width > 800px  -->
-
-      <div id="navadar" uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
-        <nav id="navbig" class="uk-navbar-container" uk-navbar>
-            <div class="uk-navbar-left">
-                <ul class="uk-navbar-nav">
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">SMARTPHONES</a></li>
-                    <li><a href="#">LAPTOPS</a></li>
-                    <li><a href="#">PCs</a></li>
-                </ul>
-            </div>
-
-
             <div class="uk-navbar-right">
                 <form class="uk-search uk-search-default">
                     <span class="uk-search-icon-flip" uk-search-icon></span>
                     <input class="uk-search-input" type="search" placeholder="Search...">
                 </form>
             </div>
+
         </nav>
       </div>
+
+        <!-- navbar for devices with width > 800px  -->
+        <div class="uk-container uk-container-expand">
+          <div id="navadar" uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
+              <nav id="navbig" class="uk-navbar-container" uk-navbar>
+              <div class="uk-navbar-left">
+                  <ul class="uk-navbar-nav">
+                      <li><a href="#">HOME</a></li>
+                      <li><a href="#">SMARTPHONES</a></li>
+                      <li><a href="#">LAPTOPS</a></li>
+                      <li><a href="#">PCs</a></li>
+                    </ul>
+                  </div>
+
+
+                  <div class="uk-navbar-right">
+                    <form class="uk-search uk-search-default">
+                      <span class="uk-search-icon-flip" uk-search-icon></span>
+                      <input class="uk-search-input" type="search" placeholder="Search...">
+                    </form>
+                  </div>
+                </nav>
+
+
+
+
+          </div>
+        </div>
 
         <!-- devices slideshow on small device-->
 
@@ -110,12 +118,12 @@
         </div>
 
         <!-- devices slideshow on big device-->
-        <div class="uk-container uk-container-small">
+        <div class="uk-container uk-container-xlarge">
           <div id="navbig" class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="animation: push">
 
             <ul class="uk-slideshow-items">
                 <li>
-                    <img src="images/big1.jpg" alt="" uk-cover style="height: 20%">
+                    <img src="images/big1.jpg" alt="" uk-cover>
                     <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center">
                       <h3 class="uk-margin-remove info">Overlay Bottom</h3>
                       <p class="uk-margin-remove info">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -149,6 +157,32 @@
 
         </div>
         </div>
+
+        <!-- <div class="uk-column-1-2" id="article">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+
+          <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+          <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.</p>
+        </div> -->
+
+
+
+
+        <div class="uk-grid-divider uk-child-width-expand@s" uk-grid id="article">
+          <div>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br>
+          </div>
+          <!-- <div><iframe width="560" height="315" src="https://www.youtube.com/embed/TI4PXFUOPR8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div> -->
+        </div>
+
+        <!-- <div class="uk-container uk-container-small">
+          <div class="video">
+
+          </div>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/TI4PXFUOPR8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div> -->
 
       </div>
     </body>
