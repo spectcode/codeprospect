@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="css/uikit.min.css" />
         <script src="js/uikit.min.js"></script>
         <script src="js/uikit-icons.min.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="css/styles.css">
     </head>
     <body>
@@ -77,112 +78,42 @@
           </div>
         </div>
 
+        <div id="intro">
+          Codeprospect is the one place you get all your information on tech ...don’t just buy a (phone\laptop\pc), make it an experience. Get all the information you require on tech devices on our website. We also recommend some of the best shops in the city where you can get all your devices.
+        </div>
+
         <!-- devices slideshow on small device-->
 
         <div id="navsmall" class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="animation: push">
 
             <ul class="uk-slideshow-items">
                 <li>
-                    <img src="images/iphone1.jpg" alt="" uk-cover>
-                    <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center">
-                      <h3 class="uk-margin-remove info">Overlay Bottom</h3>
-                      <p class="uk-margin-remove info">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <img src="images/phones/iphone.jpg" alt="" uk-cover>
+                    <div  class="uk-position-bottom uk-position-medium uk-text-center uk-light">
+                      <p uk-slideshow-parallax="x: 200,-200" style="color: white;">Lorem ipsum dolor sit amet.</p>
                     </div>
                 </li>
                 <li>
-                    <img src="images/iphone2.jpg" alt="" uk-cover>
-                    <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center">
-                      <h3 class="uk-margin-remove info">Overlay Bottom</h3>
-                      <p class="uk-margin-remove info">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <img src="images/laptops/macbook.jpg" alt="" uk-cover>
+                    <div  class="uk-position-bottom uk-position-medium uk-text-center uk-light">
+                      <p uk-slideshow-parallax="x: 200,-200" style="color: white;">Lorem ipsum dolor sit amet.</p>
                     </div>
                 </li>
                 <li>
-                    <img src="images/iphone3.jpg" alt="" uk-cover>
-                    <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center">
-                      <h3 class="uk-margin-remove info">Overlay Bottom</h3>
-                      <p class="uk-margin-remove info">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <img src="images/gaming/pad.jpg" alt="" uk-cover>
+                    <div  class="uk-position-bottom uk-position-medium uk-text-center uk-light">
+                      <p uk-slideshow-parallax="x: 200,-200" style="color: white;">Lorem ipsum dolor sit amet.</p>
                     </div>
                 </li>
                 <li>
-                    <img src="images/iphone4.jpg" alt="" uk-cover>
-                    <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center">
-                      <h3 class="uk-margin-remove info">Overlay Bottom</h3>
-                      <p class="uk-margin-remove info">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <img src="images/camera/canon.jpg" alt="" uk-cover>
+                    <div  class="uk-position-bottom uk-position-medium uk-text-center uk-light">
+                      <p uk-slideshow-parallax="x: 200,-200" style="color: white;">Lorem ipsum dolor sit amet.</p>
                     </div>
                 </li>
             </ul>
-
-            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
-            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
-
-        </div>
-
-        <!-- devices slideshow on big device-->
-        <div class="uk-container uk-container-xlarge">
-          <div id="navbig" class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="animation: push">
-
-            <ul class="uk-slideshow-items">
-                <li>
-                    <img src="images/big1.jpg" alt="" uk-cover>
-                    <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center">
-                      <h3 class="uk-margin-remove info">Overlay Bottom</h3>
-                      <p class="uk-margin-remove info">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                </li>
-                <li>
-                    <img src="images/big2.jpg" alt="" uk-cover>
-                    <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center">
-                      <h3 class="uk-margin-remove info">Overlay Bottom</h3>
-                      <p class="uk-margin-remove info">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                </li>
-                <li>
-                    <img src="images/big3.jpg" alt="" uk-cover>
-                    <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center">
-                      <h3 class="uk-margin-remove info">Overlay Bottom</h3>
-                      <p class="uk-margin-remove info">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                </li>
-                <li>
-                    <img src="images/big4.jpg" alt="" uk-cover>
-                    <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center">
-                      <h3 class="uk-margin-remove info">Overlay Bottom</h3>
-                      <p class="uk-margin-remove info">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                </li>
-            </ul>
-
-            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
-            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
-
-        </div>
-        </div>
-
-        <!-- <div class="uk-column-1-2" id="article">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
-
-          <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-          <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.</p>
-        </div> -->
-
-
-
-
-        <div class="uk-grid-divider uk-child-width-expand@s" uk-grid id="article">
-          <div>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br>
           </div>
-          <!-- <div><iframe width="560" height="315" src="https://www.youtube.com/embed/TI4PXFUOPR8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div> -->
-        </div>
 
-        <!-- <div class="uk-container uk-container-small">
-          <div class="video">
-
-          </div>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/TI4PXFUOPR8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div> -->
 
       </div>
     </body>
